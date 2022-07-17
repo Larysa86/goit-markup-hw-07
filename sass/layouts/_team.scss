@@ -1,6 +1,8 @@
 /* Секція Наша команда */
 
-.section.team {
+.team {
+    @extend %section;
+    
     background-color: var(--secondary-background-color);
 }
 

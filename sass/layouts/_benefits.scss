@@ -1,5 +1,9 @@
 /* Секція Переваги */
 
+.benefits {
+    @extend %section
+}
+
 .benefits__item::before {
     display: block;
     content: '';

@@ -1,5 +1,9 @@
 /* Секція Портфоліо */
 
+.portfolio {
+    @extend %section
+}
+
 /* Кнопки */
 
 .portfolio-list {

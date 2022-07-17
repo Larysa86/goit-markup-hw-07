@@ -1,12 +1,12 @@
 // utils styles
 @import"./utils/vars";
 @import"./utils/visually-hidden";
+@import"./utils/placeholders";
 
 
 // base styles
-@import"./base/card-set";
-@import"./base/reset";
-@import"./base/common";
+@import"./base/module";
+
 
 
 // components styles
@@ -18,6 +18,7 @@
 @import"./components/overlay";
 @import"./components/section-title";
 @import"./components/section";
+@import"./components/form";
 
 // layout styles
 @import"./layouts/benefits";

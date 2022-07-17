@@ -1,5 +1,9 @@
 /* Cекція Постійні клієнти */
 
+.clients {
+    @extend %section
+}
+
 .clients__list {
     --items: 6;
 }
