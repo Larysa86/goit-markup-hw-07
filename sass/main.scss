@@ -1,0 +1,30 @@
+// utils styles
+@import"./utils/vars";
+@import"./utils/visually-hidden";
+
+
+// base styles
+@import"./base/card-set";
+@import"./base/reset";
+@import"./base/common";
+
+
+// components styles
+@import"./components/buttons";
+@import"./components/contacts";
+@import"./components/container";
+@import"./components/logo";
+@import"./components/networks";
+@import"./components/overlay";
+@import"./components/section-title";
+@import"./components/section";
+
+// layout styles
+@import"./layouts/benefits";
+@import"./layouts/clients";
+@import"./layouts/footer";
+@import"./layouts/header";
+@import"./layouts/hero";
+@import"./layouts/job";
+@import"./layouts/team";
+@import"./layouts/portfolio";
