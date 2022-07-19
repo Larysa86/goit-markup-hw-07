@@ -1,17 +1,16 @@
 // utils styles
-@import"./utils/vars";
+@import"./utils/variables";
 @import"./utils/visually-hidden";
 @import"./utils/placeholders";
 
-
 // base styles
-@import"./base/module";
-
-
+@import"./base/common";
+@import"./base/reset";
 
 // components styles
 @import"./components/buttons";
 @import"./components/contacts";
+@import"./components/card-set";
 @import"./components/container";
 @import"./components/logo";
 @import"./components/networks";
