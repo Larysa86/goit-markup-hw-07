@@ -5,7 +5,13 @@
 }
 
 .clients__list {
-    --items: 6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.clients__item {
+    flex-basis: calc((100% - 150px) / 6);
 }
 
 .clients__link {

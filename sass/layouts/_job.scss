@@ -7,7 +7,13 @@
 
 
 .job__list {
-    --items: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.job__item {
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 /* ЯРЛИКИ */

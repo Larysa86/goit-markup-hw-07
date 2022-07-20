@@ -63,11 +63,15 @@
 }
 
 .projects-list {
-    --items: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .projects-list-item {
     border: 1px solid rgba(238, 238, 238, 1);
+
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .img-content {

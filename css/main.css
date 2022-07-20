@@ -12,8 +12,6 @@
   /* Акцентні кольори */
   --accent-color: #2196f3;
   /* Інше */
-  --items: 4;
-  --indent: 30px;
   --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -142,21 +140,6 @@ img {
   width: 10px;
   height: 16px;
   fill: currentColor;
-}
-
-/* Сітка із застосуванням Flex-box */
-.card-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: var(--indent);
-}
-
-.card-set__item {
-  -ms-flex-preferred-size: calc((100% - (var(--indent)) * var(--items) - 1) / var(--items));
-      flex-basis: calc((100% - (var(--indent)) * var(--items) - 1) / var(--items));
 }
 
 .container {
@@ -522,6 +505,20 @@ img {
 }
 
 /* Секція Переваги */
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.benefits__item {
+  -ms-flex-preferred-size: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 90px) / 4);
+}
+
 .benefits__item::before {
   display: block;
   content: "";
@@ -563,7 +560,17 @@ img {
 
 /* Cекція Постійні клієнти */
 .clients__list {
-  --items: 6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.clients__item {
+  -ms-flex-preferred-size: calc((100% - 150px) / 6);
+      flex-basis: calc((100% - 150px) / 6);
 }
 
 .clients__link {
@@ -850,7 +857,17 @@ img {
 }
 
 .job__list {
-  --items: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.job__item {
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
 }
 
 /* ЯРЛИКИ */
@@ -886,8 +903,19 @@ img {
   background-color: var(--secondary-background-color);
 }
 
+.team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
 .team__item {
   text-align: center;
+  -ms-flex-preferred-size: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 90px) / 4);
 }
 
 .team__card {
@@ -972,11 +1000,18 @@ img {
 }
 
 .projects-list {
-  --items: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 .projects-list-item {
   border: 1px solid rgb(238, 238, 238);
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
 }
 
 .img-content {
