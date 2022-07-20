@@ -4,6 +4,18 @@
     @extend %section
 }
 
+.benefits__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits__item {
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
 .benefits__item::before {
     display: block;
     content: '';
