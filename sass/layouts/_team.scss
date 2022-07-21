@@ -7,17 +7,10 @@
 }
 
 
-.team__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
 .team__item {
     text-align: center;
 
-    flex-basis: calc((100% - 90px) / 4);
-}
+    }
 
 .team__card {
     background-color: var(--secondary-title-color);

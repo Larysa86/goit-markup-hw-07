@@ -4,15 +4,6 @@
     @extend %section
 }
 
-.benefits__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.benefits__item {
-    flex-basis: calc((100% - 90px) / 4);
-}
 
 .benefits__item::before {
     display: block;

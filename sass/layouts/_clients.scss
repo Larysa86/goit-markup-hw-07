@@ -5,14 +5,9 @@
 }
 
 .clients__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    --items: 6;
 }
 
-.clients__item {
-    flex-basis: calc((100% - 150px) / 6);
-}
 
 .clients__link {
     display: flex;
